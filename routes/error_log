@@ -1,0 +1,8 @@
+[16-May-2024 19:39:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/p240424s/public_html/routes/web.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/p240424s/public_html/routes/web.php on line 8
+[16-May-2024 19:39:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/p240424s/public_html/routes/web.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/p240424s/public_html/routes/web.php on line 8

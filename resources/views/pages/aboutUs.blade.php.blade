@@ -1,0 +1,77 @@
+@extends('layouts.app')
+
+@section('title', 'About Us')
+
+@section('content')
+
+<main class="main">
+    <div class="section pt-60 pb-60 bg-primary">
+      <div class="container-sub"> 
+        <h1 class="heading-44-medium color-white mb-5">About Us</h1>
+        <div class="box-breadcrumb"> 
+          <ul>
+            <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="{{ url('/aboutus') }}">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="banner-image-service wow fadeInUp">
+        <section class="section">
+            <div class="container-sub"> 
+                <div class="mt-120"> 
+                    <p>Welcome to <b>Airport Limousine LLC</b>, your premier choice for luxury transportation in Indiana. Established with a commitment to providing unparalleled service, we specialize in offering safe, reliable, and comfortable rides to our valued clients.</p>
+
+                    <p>Welcome to <b>Airport Limousine LLC</b>, your premier choice for luxury transportation in Indiana. Established with a commitment to providing unparalleled service, we specialize in offering safe, reliable, and comfortable rides to our valued clients.</p>
+
+                    <p>Welcome to <b>Airport Limousine LLC</b>, your premier choice for luxury transportation in Indiana. Established with a commitment to providing unparalleled service, we specialize in offering safe, reliable, and comfortable rides to our valued clients.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="section pt-130 pb-130 mb-30 bg-primary box-testimonials">
+      <div class="container-sub"> 
+        <div class="row"> 
+          <div class="col-lg-5 col-md-6 mb-30">
+            <div class="box-swiper"> 
+              <div class="swiper-container swiper-group-testimonials pb-50">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"> 
+                    <div class="cardQuote wow fadeInUp">
+                      <div class="box-quote"> 
+                        <div class="icon-quote"> </div>
+                        <div class="info-quote"> 
+                          <h5 class="color-white text-18-medium">Emily R.</h5>
+                          {{-- <p class="color-white text-14">Web Developer</p> --}}
+                        </div>
+                      </div>
+                      <div class="content-quote">
+                        Airport Limousine LLC provided an outstanding airport transfer service. The chauffeur was on time, professional, and the car was incredibly comfortable. Highly recommend!</div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide"> 
+                    <div class="cardQuote wow fadeInUp">
+                      <div class="box-quote"> 
+                        <div class="icon-quote"> </div>
+                        <div class="info-quote"> 
+                          <h5 class="color-white text-18-medium">John S.</h5>
+                        </div>
+                      </div>
+                      <div class="content-quote">The best airport transfer experience I've ever had. Booking was easy, the ride was smooth, and the chauffeur was very courteous. Will definitely use their services again.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-pagination-testimonials mt-40 wow fadeInUp"> <span class="firstNumber"></span><span class="lastNumber"></span>
+                  <div class="swiper-pagination swiper-pagination-testimonials"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 mb-30 text-lg-end text-center d-none d-md-block">
+            <div class="box-video wow fadeInUp"> <a class="btn btn-play popup-youtube hover-up" href="https://www.youtube.com/watch?v=sVPYIRF9RCQ"></a><img src="imgs/page/homepage1/img-video.png" alt="luxride"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+@endsection

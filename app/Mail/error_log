@@ -1,0 +1,8 @@
+[16-May-2024 22:51:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/p240424s/public_html/app/Mail/ContactUsEmail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/p240424s/public_html/app/Mail/ContactUsEmail.php on line 12
+[16-May-2024 22:51:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/p240424s/public_html/app/Mail/ContactUsEmail.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/p240424s/public_html/app/Mail/ContactUsEmail.php on line 12

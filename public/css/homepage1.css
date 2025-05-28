@@ -1,0 +1,106 @@
+body .banner-home1 .box-search-ride {
+    max-width: 1410px;
+}
+body .box-search-ride .search-item .search-icon {
+    max-width: 52px;
+    width: 100%;
+    min-width: 52px;
+    margin-right: 6px;
+}
+.box-search-ride .search-item .search-inputs label {
+    width: 100% !important;
+}
+.box-search-ride .search-item .search-inputs span.select2.select2-container {
+    width: 110px  !important;
+}
+span.select2-container span.select2-dropdown.select2-dropdown--above span.select2-search.select2-search--dropdown input.select2-search__field {
+    background-color: #f1f1f1;
+}
+body form .box-search-ride .search-item {
+    padding: 0 8px;
+}
+body form .box-search-ride .search-item.search-item.search-button button.btn.btn-search {
+    padding: 10px;
+    font-size: 13px;
+}
+body form .box-search-ride .search-item.search-item.search-button button.btn.btn-search img {
+    width: 16px;
+    margin-right: 5px;
+}
+
+.ui-datepicker table.ui-datepicker-calendar th {
+    font-size: 13px;
+}
+.ui-datepicker table.ui-datepicker-calendar td a.ui-state-default {
+    height: 22px;
+    width: 22px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+body form .box-search-ride .search-item .form-group {
+    margin-bottom: 0;
+}
+body .ui-timepicker-container {
+    padding: 0;
+}
+body .ui-timepicker-container .ui-timepicker.ui-widget {
+    border: none;
+}
+.booking-info-form h3#estimate-text + .form-group {
+    margin: 0 0 10px 0;
+}
+.booking-info-form form label input#searchDetails {
+    position: relative;
+    top: 2px;
+}
+.booking-info-form form label .form-check.pl-0.mb-20 {
+    margin-bottom: 0 !important;
+}
+.booking-info-form form .col-md-12 label.ml-5 {
+    margin-left: 0 !important;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+.booking-info-form form .col-md-12 label.ml-5 + .form-check.pl-0.mb-20 {
+    display: inline-block;
+}
+
+body .header .main-menu li a {
+    padding: 5px 15px 5px 15px;
+}
+
+.cityTitle {
+    text-align: center;
+}
+
+@media only screen and (max-width:767px){
+    .mobile-header-wrapper-style .mobile-header-wrapper-inner {
+        background-color: #000;
+    }
+    .mobile-header-wrapper-style .mobile-header-wrapper-inner nav ul li a {
+        color: #fff !important;
+        font-size: 15px !important;
+        line-height: 14px !important;
+    }
+    .mobile-header-wrapper-style .mobile-header-wrapper-inner {
+        background-color: #000;
+    }
+
+    .mobile-header-wrapper-style .mobile-header-wrapper-inner nav ul li a {
+        color: #fff !important;
+        font-size: 15px !important;
+        line-height: 14px !important;
+    }
+
+    .header .main-header .header-left .header-right .d-xxl-inline-block.align-middle.mr-10 {
+        margin-right: 0 !important;
+    }
+
+    .header .main-header .header-left .header-right a {padding-left: 0 !important;background: none;font-size: 12px !important;}
+
+    .mobile-header-active.mobile-header-wrapper-style.perfect-scrollbar.sidebar-visible {
+        background-color: #000 !important;
+    }
+}

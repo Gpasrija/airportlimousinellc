@@ -1,0 +1,69 @@
+.ui-datepicker table.ui-datepicker-calendar th {
+    font-size: 13px;
+}
+.ui-datepicker table.ui-datepicker-calendar td a.ui-state-default {
+    height: 22px;
+    width: 22px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.box-search-ride .search-item.search-button {
+    max-width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+body .banner-home1 .box-search-ride {
+    flex-wrap: wrap;
+    border-radius: 24px;
+}
+body .banner-home1 .box-search-ride > div {
+    flex: 1;
+}
+span.select2-container.select2-container--default.select2-container--open span.select2-dropdown {
+    width: 220px !important;
+}
+.booking-info-form h3#estimate-text + .form-group {
+    margin: 0 0 10px 0;
+}
+.booking-info-form form label input#searchDetails {
+    position: relative;
+    top: 2px;
+}
+.booking-info-form form label .form-check.pl-0.mb-20 {
+    margin-bottom: 0 !important;
+}
+.booking-info-form form .col-md-12 label.ml-5 {
+    margin-left: 0 !important;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+.booking-info-form form .col-md-12 label.ml-5 + .form-check.pl-0.mb-20 {
+    display: inline-block;
+}
+@media only screen and (max-width:767px){
+    .header .main-header .header-left .burger-icon.burger-icon-white {
+    width: 16px;
+    height: 18px;
+}
+
+.header .main-header .header-right {
+    padding-right: 16px !important;
+}
+
+.header .main-header .header-right {
+    width: auto !important;
+    flex: 1;
+}
+
+.header .main-header .header-left .header-logo {
+    max-width: 115px !important;
+}
+
+.header .main-header .header-right a.call-phone {
+    font-size: 13px !important;
+}
+}
